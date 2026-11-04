@@ -6,3 +6,31 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .DS_Store
+
+# Виртуальные окружения
+.venv/
+.venv311/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Данные (скачиваются скриптом, не коммитятся)
+data/*
+!data/README.md
+
+# Результаты экспериментов (опционально — см. ниже)
+# experiments/**/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
